@@ -3,7 +3,7 @@
 const _ = require('lodash');
 
 module.exports = lando => ({
-  command: 'db-connect',
+  command: 'db-open',
   describe: 'Opens database link with default system application',
   options: {
     service: {
